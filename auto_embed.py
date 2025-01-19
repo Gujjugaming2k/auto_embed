@@ -62,4 +62,4 @@ def redirect_to_m3u8():
         return jsonify(result)  # Return the error message as JSON
 
 if __name__ == '__main__':
-    # app.run(debug=True, port=5012)
+    app.run(debug=True, port=5012)
